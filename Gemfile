@@ -22,6 +22,15 @@ gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
+gem 'jquery-rails'
+gem 'oj'
+gem 'oj_mimic_json'
+gem 'rspec-rails'
+gem 'faker'
+gem 'rails-controller-testing'
+gem 'meta-tags'
+gem 'breadcrumbs_on_rails'
+
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
@@ -53,9 +62,10 @@ end
 group :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '>= 2.15'
-  gem 'selenium-webdriver'
-  # Easy installation and use of chromedriver to run system tests with Chrome
-  gem 'chromedriver-helper'
+  #gem 'selenium-webdriver'
+  gem 'webdrivers'
+  gem 'shoulda-matchers'
+
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

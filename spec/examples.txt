@@ -1,0 +1,4 @@
+example_id                                          | status  | run_time |
+--------------------------------------------------- | ------- | -------- |
+./spec/controllers/main_controller_spec.rb[1:1:1:1] | unknown |          |
+./spec/controllers/main_controller_spec.rb[1:1:1:2] | unknown |          |
